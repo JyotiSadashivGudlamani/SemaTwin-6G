@@ -1,0 +1,57 @@
+[
+  {
+    "image_id": 1,
+    "actual_label": "airplane",
+    "predicted_class": "dog",
+    "confidence_pct": 85.0,
+    "extraction_layer": "ResNet-18 Backbone (Adaptive Average Pooling / Layer4 Output)",
+    "feature_dim": 512,
+    "feature_vector_min": -0.1319,
+    "feature_vector_max": 0.1319,
+    "feature_vector_mean": -0.0007
+  },
+  {
+    "image_id": 2,
+    "actual_label": "automobile",
+    "predicted_class": "dog",
+    "confidence_pct": 85.0,
+    "extraction_layer": "ResNet-18 Backbone (Adaptive Average Pooling / Layer4 Output)",
+    "feature_dim": 512,
+    "feature_vector_min": -0.1402,
+    "feature_vector_max": 0.1303,
+    "feature_vector_mean": -0.0036
+  },
+  {
+    "image_id": 3,
+    "actual_label": "bird",
+    "predicted_class": "dog",
+    "confidence_pct": 85.0,
+    "extraction_layer": "ResNet-18 Backbone (Adaptive Average Pooling / Layer4 Output)",
+    "feature_dim": 512,
+    "feature_vector_min": -0.1347,
+    "feature_vector_max": 0.1382,
+    "feature_vector_mean": 0.0004
+  },
+  {
+    "image_id": 4,
+    "actual_label": "cat",
+    "predicted_class": "dog",
+    "confidence_pct": 85.0,
+    "extraction_layer": "ResNet-18 Backbone (Adaptive Average Pooling / Layer4 Output)",
+    "feature_dim": 512,
+    "feature_vector_min": -0.1258,
+    "feature_vector_max": 0.1332,
+    "feature_vector_mean": 0.0004
+  },
+  {
+    "image_id": 5,
+    "actual_label": "deer",
+    "predicted_class": "dog",
+    "confidence_pct": 85.0,
+    "extraction_layer": "ResNet-18 Backbone (Adaptive Average Pooling / Layer4 Output)",
+    "feature_dim": 512,
+    "feature_vector_min": -0.1656,
+    "feature_vector_max": 0.1307,
+    "feature_vector_mean": 0.0017
+  }
+]

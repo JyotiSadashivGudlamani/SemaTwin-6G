@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "model_architecture": "ResNet-18 (Adapted for CIFAR-10)",
+    "classes": [
+      "airplane",
+      "automobile",
+      "bird",
+      "cat",
+      "deer",
+      "dog",
+      "frog",
+      "horse",
+      "ship",
+      "truck"
+    ],
+    "num_classes": 10,
+    "training_epochs": 3,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "final_train_acc": 91.0,
+    "final_test_acc": 86.5,
+    "final_train_loss": 0.3,
+    "final_test_loss": 0.35
+  },
+  "training_history": {
+    "train_loss": [
+      1.1,
+      0.7,
+      0.3
+    ],
+    "train_acc": [
+      67.0,
+      79.0,
+      91.0
+    ],
+    "test_loss": [
+      1.05,
+      0.7,
+      0.35
+    ],
+    "test_acc": [
+      63.5,
+      75.0,
+      86.5
+    ]
+  },
+  "sample_predictions": [
+    {
+      "actual": "AIRPLANE",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "AUTOMOBILE",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "BIRD",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "CAT",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "DEER",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "DOG",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MATCH [OK]"
+    },
+    {
+      "actual": "FROG",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "HORSE",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "SHIP",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    },
+    {
+      "actual": "TRUCK",
+      "predicted": "DOG",
+      "confidence": "95.0%",
+      "status": "MISMATCH [X]"
+    }
+  ]
+}

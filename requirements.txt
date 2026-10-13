@@ -1,0 +1,17 @@
+# Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.5.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization & Plotting
+matplotlib>=3.7.0
+plotly>=5.14.0
+
+# Streamlit Interactive Web Application
+streamlit>=1.25.0
+streamlit-option-menu>=0.4.0

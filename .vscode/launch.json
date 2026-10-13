@@ -1,0 +1,62 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🌐 Run Streamlit Dashboard",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/Bappa/dashboard/app.py",
+                "--server.port=8501"
+            ],
+            "cwd": "${workspaceFolder}/Bappa",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Bappa",
+                "PYTHONIOENCODING": "utf-8"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "📡 Run Main Pipeline (main.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Bappa/main.py",
+            "cwd": "${workspaceFolder}/Bappa",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Bappa",
+                "PYTHONIOENCODING": "utf-8"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🧪 Run E2E Tests (test_phase6_e2e.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Bappa/test_phase6_e2e.py",
+            "cwd": "${workspaceFolder}/Bappa",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Bappa",
+                "PYTHONIOENCODING": "utf-8"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "📊 Run Results Flow Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Bappa/test_results_page_flow.py",
+            "cwd": "${workspaceFolder}/Bappa",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Bappa",
+                "PYTHONIOENCODING": "utf-8"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

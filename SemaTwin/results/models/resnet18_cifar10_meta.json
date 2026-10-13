@@ -1,0 +1,10 @@
+{
+  "model_architecture": "ResNet-18 (CIFAR-10 modified conv1 + fc)",
+  "num_classes": 10,
+  "training_epochs": 5,
+  "final_train_loss": 0.1176,
+  "final_train_acc": 95.88,
+  "final_test_loss": 0.4687,
+  "final_test_acc": 86.49,
+  "timestamp": "2026-09-19 16:00:07"
+}

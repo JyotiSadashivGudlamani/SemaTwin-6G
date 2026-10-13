@@ -1,0 +1,83 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch Streamlit Dashboard",
+            "type": "shell",
+            "command": "${workspaceFolder}/Bappa/.venv/Scripts/python.exe -m streamlit run dashboard/app.py",
+            "options": {
+                "cwd": "${workspaceFolder}/Bappa",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/Bappa",
+                    "PYTHONIOENCODING": "utf-8"
+                }
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Main Pipeline",
+            "type": "shell",
+            "command": "${workspaceFolder}/Bappa/.venv/Scripts/python.exe main.py",
+            "options": {
+                "cwd": "${workspaceFolder}/Bappa",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/Bappa",
+                    "PYTHONIOENCODING": "utf-8"
+                }
+            },
+            "problemMatcher": [],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run End-to-End Tests",
+            "type": "shell",
+            "command": "${workspaceFolder}/Bappa/.venv/Scripts/python.exe test_phase6_e2e.py",
+            "options": {
+                "cwd": "${workspaceFolder}/Bappa",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/Bappa",
+                    "PYTHONIOENCODING": "utf-8"
+                }
+            },
+            "problemMatcher": [],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Install / Update Requirements",
+            "type": "shell",
+            "command": "${workspaceFolder}/Bappa/.venv/Scripts/python.exe -m pip install -r requirements.txt",
+            "options": {
+                "cwd": "${workspaceFolder}/Bappa"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}
